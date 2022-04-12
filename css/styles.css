@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cuerpo {
+    background-image: linear-gradient(green, brown);
+}
+.hInicio {
+    display: grid; 
+    grid-template-columns: 20% auto;
+    align-items: center;
+}
+.hInicio nav {
+    grid-column: 2 / 3;
+
+}
+
+.div {
+    
+    grid-column: 1 / 2;
+    
+}
+
+.mInicio {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px;
+    border: 1px solid black;
+    color: black;
+}
+
+#inicio {
+    display: flex; 
+    height: 1000px;
+    justify-content: center;
+    font-size: 120px;
+}
+
+
+.inicio1 {
+    background-image: url(../imagenes/index.jpg );
+}
+
+.inicio2{
+    background-image: url(../imagenes/equipo\ .jpg);
+}
+
+.inicio3{
+    background-image: url(../imagenes/proximas.jpg);
+}
+
+.inicio4{
+    background-image: url(../imagenes/fotos.jpg);
+}
+
+.inicio5{
+    background-image: url(../imagenes/contacto.jpg);
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
+
+.pIndex {
+    display: flex;
+}
+
+
+@media (max-width: 1023px) {
+    .inicio1 {
+        background-image: url(../imagenes/index.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio2 {
+        background-image: url(../imagenes/equipo.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio3{
+        background-image: url(../imagenes/proximas.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio4{
+        background-image: url(../imagenes/fotos.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio5 {
+        background-image: url(../imagenes/contacto.tablet.jpg);
+        background-repeat: no-repeat;
+    }
+    #inicio {
+        display: flex; 
+        height: 800px;
+        justify-content: center;
+        font-size: 80px;
+    }
+    .pIndex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .video1 {
+        height: 500px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 736px) {
+    .inicio1 {
+        background-image: url(../imagenes/index.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio2 {
+        background-image: url(../imagenes/equipo.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio3{
+        background-image: url(../imagenes/proximas.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio4{
+        background-image: url(../imagenes/fotos.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    .inicio5 {
+        background-image: url(../imagenes/contacto.mobil.jpg);
+        background-repeat: no-repeat;
+    }
+    #inicio {
+        display: flex; 
+        height: 500px;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+    }
+    .video1 {
+        height: 300px;
+        width: 500px;
+    }    
+
+}
