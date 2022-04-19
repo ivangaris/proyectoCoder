@@ -4,8 +4,14 @@
 }
 
 
+#menunav {
+   justify-content: end;
+   align-items: center;
+}
 
-.cuerpo {
+
+
+#cuerpo {
     background-image: linear-gradient(green, brown);
 }
 .hInicio {
@@ -13,16 +19,7 @@
     grid-template-columns: 20% auto;
     align-items: center;
 }
-.hInicio nav {
-    grid-column: 2 / 3;
 
-}
-
-.div {
-    
-    grid-column: 1 / 2;
-    
-}
 
 .mInicio {
     display: flex;
@@ -38,6 +35,16 @@
     height: 1000px;
     justify-content: center;
     font-size: 120px;
+    
+}
+
+#formulario {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 
@@ -70,7 +77,6 @@
 .pIndex {
     display: flex;
 }
-
 
 @media (max-width: 1023px) {
     .inicio1 {
@@ -141,6 +147,32 @@
     .video1 {
         height: 300px;
         width: 500px;
-    }    
-
+    } 
+    .calendario {
+        width: 600px
+        
+    } 
 }
+
+.pie {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+}   
+
+
+.pie ul {
+    list-style: none;
+    padding-left: 10px;
+    
+}
+.pie p ul {
+    margin: 0;
+   
+}
+

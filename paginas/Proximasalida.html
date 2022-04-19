@@ -5,45 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagenes/descarga.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Montañas y Vino</title>
 </head>
-<body class="cuerpo">
+<body id="cuerpo" class="container-fluid">
     <h1 id="inicio" class="inicio3">Animate a esta Experiencia</h1>
 
-    <header class="hInicio">
+    <header>
         
-        <div>
+        <div id="menunav" class="row">
+            <div class="col-6">
+                <img src="../imagenes/logo/PNG VERDE.png" alt="" class="logo">
+            </div>  
+            <div class="col-6">
+                <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand" href="../imagenes/logo/PNG VERDE.png"></a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Equipo.html">Equipo</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Proximasalida.html">Proximas salidas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Fotos.html">Fotos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Contacto.html">Contacto</a>
+                          </li>
+                          
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                          <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
 
-            <img src="../imagenes/logo/PNG VERDE.png" alt="" class="logo">
+            </div>
 
-        </div>    
-
-        <nav>
-    
-            <ul class="mInicio"> 
-    
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-    
-                <li>
-                    <a href="../paginas/Equipo.html">Equipo</a>
-                </li>
-    
-                <li>
-                    <a href="paginas/Proximasalida.html">Proximas Salidas</a>
-                </li>
-    
-                <li>
-                    <a href="../paginas/Fotos.html">Fotos</a>
-                </li>
-    
-                <li>
-                    <a href="../paginas/Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        </div>
+           
 
         
     </header>  
@@ -62,7 +74,7 @@
     </Section>
 
 
-    <footer>
+    <footer class="pie">
 
         <p>Animate a una nueva Experiencia Sensorial</p>
 
